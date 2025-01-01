@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    
+}
+body{
+   background-color: #ffb703;
+}
+.header {
+    background-color: #ffb703;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .title{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 90px;
+    cursor: pointer;
+    height: auto;
+    padding: 50px;
+    
+}
+
+.header nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .nav-links{
+    list-style: none;
+
+}
+.header .nav-links li{
+    display: inline-block;
+    padding:  25px;
+    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+.header .nav-links a{
+    font-size:  20px;
+    color: white;
+    text-decoration: none;
+}
+.header .nav-links li a:hover{
+    color: beige;
+
+}
+
+.header .carrito button{
+    font-weight: 700;
+    color: beige;
+    padding: 2px 15px;
+    background: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    font-size: 20px;
+}
+.header .carrito button:hover{
+    background-color: black;
+    color: beige;
+    transform: scale(1.1);
+}
+main .fotoportada{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/FotoBienvenida1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    
+}
+main h2{
+    text-align: center;
+    font-weight: 700;
+    color: #adb5bd;
+    padding: 10px 15px;
+    background: #343a40;
+    border-radius: 70px;
+    margin: 25px 150px 25px 150px;
+    padding: 10px 0px 10px 0px ;
+}
+main .productossection a {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 60px;
+    color:  black;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+main section .productosportada{
+    background-color: #adb5bd;
+}
+main section .productosportada div img{
+    width: 150px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    border-radius: 80px;
+}
+.productosportada{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px 300px 25px 300px;
+    padding: 15px 0px 15px 0px ;
+    border-radius:  100px;
+}
+.fotoarañador img{
+    height: 600px;
+    height: 600px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 100px;
+}
+.fotoarañador{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.mediosdepago div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.mediosdepago div p img{
+  display: flex;
+  align-content: center;
+}
+
+.mediosdepago .oferta{
+    height: 40px;
+    width: 40px;
+}
+.mediosdepago .tarjeta{
+    height: 40px;
+    width: 40px;
+}
+.mediosdepago .camion{
+    height: 40px;
+    width: 40px;
+}
+
+.pagina-contacto h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.pagina-contacto p{
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.pagina-contacto{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px ;
+    margin-top: 90px;
+}
+
+.subtituloscontacto a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.pagina-contacto form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    outline: 0px;
+}
+.conteiner-fabrica{
+    display: flex;
+    align-content: center;
+    margin:60px;
+}
+.imgfabric a img{
+    width: 700px;
+    height: 500px;
+    border-radius: 60px;
+    margin: 9px;
+}
+.carrusel-tres a img{
+    width: 300px;
+    height: 200px;
+   margin: 40px 0px 0px 75px;
+   border-radius: 60px;
+}
+footer{
+    margin-top: 1O0px;
+}
+
+
+
+
+
+
+
+
