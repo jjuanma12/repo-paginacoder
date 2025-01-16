@@ -1,0 +1,102 @@
+footer{
+
+    .mediosdepago{
+
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+            img{
+                display: flex;
+                align-content: center;
+            }          
+              
+            .mediosdepago .oferta{
+                height: 40px;
+                width: 40px;
+            }
+
+            .mediosdepago .tarjeta{
+                height: 40px;
+                width: 40px;
+            }
+
+            .mediosdepago .camion{
+                height: 40px;
+                width: 40px;
+            }
+        }
+    }
+
+    .pie-de-pagina{
+        position: relative;
+        width: 100%;
+        background-color: grey;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+    }
+
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+.icon-eleme{
+  list-style: none;
+}
+
+.icon{
+  color: white;
+  font-size: 32px;
+  display: inline-block;
+  margin: 0px 10px;
+  transition: 0.5s;
+  &:hover{
+    transform: translateY(-10px);
+  }
+}
+
+.menu-pie{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;   
+}
+
+.menu-elem{
+    list-style: none;
+}
+
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+}
+
+.tex{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}

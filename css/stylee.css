@@ -1,3 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    
+}
+body{
+   background-color: #ffb703;
+}
+.header {
+    background-color: #ffb703;
+    width: 100%;
+    top: 0;
+}
+
+.header nav{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+}
+.header nav h1{
+    font-size: 35px;
+}
+header nav h1 a ion-icon{
+   
+    font-size: 26px;
+    color: black;
+}
+header nav ul{
+    width: 40%;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
 
 
-/*# sourceMappingURL=stylee.css.map */
+.uldesord{
+    list-style: none;
+    margin: 10px;
+}
+
+main .imgport img{
+    width: 1349px;
+}
+
+.header li:hover{
+    transform: scale(1.1);
+}
+.header nav a{
+    font-size:  20px;
+    color: white;
+    text-decoration: none;
+}
+.header li a:hover{
+    color: beige;
+
+}
+
+.btn-outline-success{
+ background-color:#ffb703;
+ color: black;
+ border: 1px solid black;
+}
+
+.btn-outline-success:hover{
+    background-color: black;
+}
+
+.navbar-bg-light{
+    background-color: #ffb703;
+}
+
+input .form-control-me-2{
+    background-color: black;
+}
+
+main .fotoportada{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/FotoBienvenida1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    
+}
+
+main .Titulo-tienda-en-linea{
+    
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    background-image: url(../imagenes/fondoparamainsuperior.png);
+    background-repeat: no-repeat;
+    mask-image: linear-gradient(
+        #ffb703 80%,
+        transparent
+    );
+    margin: 0px;
+}
+
+main .Titulo-tienda-en-linea h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 80px;
+    color: #ff5400;
+}
+
+main .Titulo-tienda-en-linea p{
+    width: 900px;
+    margin: 50px;
+    font-size: 20px;
+}
+
+main h2{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    padding: 10px 0px;
+    background: gray;
+    border-radius: 70px;
+    margin: 25px 150px 25px 150px;
+    padding: 10px 0px 10px 0px ;
+}
+
+main .productossection a {
+    text-decoration: none;
+    background-color: #e85d04;
+    border-radius: 60px;
+    color:  black;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+main .productosportada h3{
+    font-size: 17px;
+}
+
+main .productosportada p{
+    font-size: 13px;
+}
+
+main section .productosportada{
+    background-color: #f77f00;
+}
+
+main section .productosportada div img{
+    width: 150px;
+    height: 75px;
+    border-radius: 80px;
+}
+
+.productosportada{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px 300px 25px 300px;
+    padding: 15px 0px 15px 0px ;
+    border-radius:  100px;
+    flex-wrap: wrap;
+}
+
+.boton--productosportada:hover{
+    background-color: white;
+    color: black;
+}
+
+.fotoarañador img{
+    height: 600px;
+    width: 800px;
+    margin: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 100px;
+}
+.fotoarañador{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.conteiner-fabrica{
+    display: flex;
+    align-content: center;
+    margin:60px;
+}
+
+.imgfabric a img{
+    width: 700px;
+    height: 500px;
+    border-radius: 60px;
+    margin: 9px;
+}
+
+.carrusel-tres a img{
+    width: 300px;
+    height: 200px;
+   margin: 40px 0px 0px 75px;
+   border-radius: 60px;
+}
+
+.galeria-gimnasios-clientes{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr ;
+    gap: 25px;
+}
+
+.gimnasios-clientes a img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+
+
+.subtituloscontacto h4{
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.subtituloscontacto p{
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.pagina-contacto{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px ;
+    margin-top: 90px;
+}
+
+.subtituloscontacto a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+.pagina-contacto form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    outline: 0px;
+}
+
+
+.clase-nosotros{
+    background-image: url(../imagenes/Diseño\ sin\ título\ \(5\).png) ;
+    mask-image: linear-gradient(
+        #ffb703 97%,
+        transparent
+    );
+}
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+   
+}
+
+.presentacion img{
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    border-radius: 10%;
+    mask-image: linear-gradient(
+        #ffb703 60%,
+        transparent
+    );
+}
+
+.presentacion p{
+    font-size: 20px;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 400px 0px 400px;
+    margin-top: 30px;
+    
+}
+
+.present{
+    color: black;
+}
+
+
+
+
+
+
+
+
+.mediosdepago div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.mediosdepago div p img{
+  display: flex;
+  align-content: center;
+}
+
+.mediosdepago .oferta{
+    height: 40px;
+    width: 40px;
+}
+.mediosdepago .tarjeta{
+    height: 40px;
+    width: 40px;
+}
+.mediosdepago .camion{
+    height: 40px;
+    width: 40px;
+}
+footer .pie-de-pagina{
+    position: relative;
+    width: 100%;
+    background-color: grey;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+.social-icon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin: 10px 5px;
+      flex-wrap: wrap;
+}
+.icon-eleme{
+    list-style: none;
+}
+
+.icon{
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0px 10px;
+    transition: 0.5s;
+}
+
+.icon :hover{
+    transform: translateY(-10px);
+
+}
+
+.menu-pie{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;   
+}
+
+.menu-elem{
+    list-style: none;
+}
+
+.menu-icon{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+}
+
+.tex{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+footer{
+    margin-top: 100px;
+}
+
+
+@media screen and (max-width:867px){
+    .header nav{
+        flex-direction: column;
+    }
+    .header nav ul{
+        justify-content: center;
+    }
+    main .Titulo-tienda-en-linea p{
+        font-size: 15px;
+    }
+    main .Titulo-tienda-en-linea h3{
+        font-size: 40px;
+        font-weight: 700;
+        margin: 80px;
+        color: #ff5400;
+    }
+    main h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+        color: white;
+        padding: 5px 7.5px;
+        background: grey;
+        border-radius: 70px;
+        margin: 12.5px 175px 12.5px 175px;
+        padding: 5px 0px 5px 0px ;
+    }
+    main .productossection a {
+        text-decoration: none;
+        background-color: white;
+        border-radius: 60px;
+        color:  black;
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    main .productosportada h3{
+        font-size: 10px;
+    }
+    main .productosportada p{
+        font-size: 9px;
+    }
+    main section .productosportada div img{
+        width: 100px;
+        height: 37.5px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 80px;
+    }
+    .productosportada{
+        display: flex; 
+        flex-direction:row;
+        justify-content: space-around;
+        margin: 12.5px 150px 12.5px 150px;
+        padding: 7.5px 0px 7.5px 0px ;
+        border-radius:  100px;
+        flex-wrap: wrap;
+    }
+    .fotoarañador img{
+        height: 300px;
+        height: 300px;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 100spx;
+    }
+    .mediosdepago .oferta{
+        height: 20px;
+        width: 20px;
+    }
+    .mediosdepago .tarjeta{
+        height: 20px;
+        width: 20px;
+    }
+    .mediosdepago .camion{
+        height: 20px;
+        width: 20px;
+    }
+    
+   
+}
+@media screen and (max-width:689px){
+    main .Titulo-tienda-en-linea p{
+        font-size: 8px;
+    }
+    
+    main section .productosportada div img{
+        width: 100px;
+        height: 37.5px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 80px;
+    }
+    .productosportada{
+        display: flex; 
+        flex-direction:column;
+        justify-content: space-around;
+        margin: 12.5px 150px 12.5px 150px;
+        padding: 7.5px 0px 7.5px 0px ;
+        border-radius:  100px;
+        flex-wrap: wrap;
+    }
+    .fotoarañador img{
+        height: 300px;
+        height: 300px;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 100spx;
+    }
+    main .productossection a {
+        text-decoration: none;
+        background-color: white;
+        border-radius: 60px;
+        color:  black;
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:576px){
+    main .Titulo-tienda-en-linea{
+    
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header nav ul{
+        flex-direction: column;
+        margin: 0px;
+    }
+   
+    main .Titulo-tienda-en-linea h3{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 80px;
+        color: #ff5400;
+    }
+    main section .productosportada div img{
+        width: 50px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 80px;
+    }
+    main .productossection a {
+        text-decoration: none;
+        background-color: white;
+        border-radius: 60px;
+        color:  black;
+        padding: 7px 7px;
+        font-size: 7px;
+    }
+    main .productosportada p{
+        font-size: 6px;
+    }
+    main h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 6px;
+        color: white;
+        padding: 5px 7.5px;
+        background: grey;
+        border-radius: 70px;
+        margin: 12.5px 175px 12.5px 175px;
+        padding: 5px 0px 5px 0px ;
+    }
+    footer .pie-de-pagina{
+        padding: 10px 20px;
+    }
+}
+@media screen and (max-width:420px){
+    main .Titulo-tienda-en-linea p{
+        font-size: 8px;
+    }
+    .fotoarañador img{
+        height: 150px;
+        height: 150px;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 60px;
+    }
+    .icon{
+        color: white;
+        font-size: 20px;
+    }
+    .tex{
+        font-size: 15px;
+    
+    }
+    .menu-icon{
+        font-size: 10px;}
+        
+}
