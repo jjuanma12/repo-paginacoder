@@ -31,8 +31,8 @@ header nav h1 a ion-icon{
     font-size: 26px;
     color: black;
 }
-header nav ul{
-    width: 40%;
+header nav .uldesord{
+    /* width: 40%; */
     position: static;
     display: flex;
     flex-direction: row;
@@ -40,16 +40,25 @@ header nav ul{
     align-items: center;
     margin: 10px;
 }
-
-
-.uldesord{
-    list-style: none;
+.header nav .uldesord a{
     margin: 10px;
 }
 
-main .imgport img{
-    width: 1349px;
+.uldesord{
+    list-style: none;
+    
 }
+
+/* main .imgport img{
+    width: 1349px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-position: center;
+    border-radius: 30px;
+} */
+
+
 
 .header li:hover{
     transform: scale(1.1);
@@ -88,11 +97,53 @@ main .fotoportada{
     background-image: url(../imagenes/FotoBienvenida1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: fixed;
     background-position: center;
     border-radius: 30px;
     
 }
+main .fotoportada-productos{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/cats-6574788_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-position: center;
+    border-radius: 30px;
+}
 
+main .fotoportada-fabric{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/cats-5845070_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-position: center;
+    border-radius: 30px;
+}
+
+main .fondoportada-contacto{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/cute-3273789_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-position: center;
+    border-radius: 30px;
+}
+main .fondoportada-nosotros{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/cat-family-5074959_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-position: center;
+    border-radius: 30px;
+}
 main .Titulo-tienda-en-linea{
     
     height: 400px;
@@ -231,6 +282,7 @@ main section .productosportada div img{
 .subtituloscontacto p{
     line-height: 1.6;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .pagina-contacto{
@@ -253,6 +305,7 @@ main section .productosportada div img{
     font-weight: 700;
 }
 
+
 .pagina-contacto form .campo, textarea{
     width: 100%;
     padding: 15px 10px;
@@ -261,6 +314,12 @@ main section .productosportada div img{
     margin-bottom: 20px;
     border-radius: 80px;
     outline: 0px;
+}
+
+
+main .pagina-contacto .formulario-contacto{
+    width: 500px;
+    height: 500px;
 }
 
 
@@ -410,11 +469,27 @@ footer{
 
 
 @media screen and (max-width:867px){
-    .header nav{
+    .header nav {
         flex-direction: column;
+        
     }
-    .header nav ul{
+    .header nav .uldesord a{
+        margin: 10px;
+    }
+    .header nav .uldesord{
         justify-content: center;
+        
+    }
+    .header nav .uldesord li{
+        align-items: center;
+    }
+    .navbar-bg-light{
+        
+        height:50px;    
+    }
+    
+    .fotoportada{
+        width: 80%;
     }
     main .Titulo-tienda-en-linea p{
         font-size: 15px;
@@ -436,7 +511,26 @@ footer{
         margin: 12.5px 175px 12.5px 175px;
         padding: 5px 0px 5px 0px ;
     }
-    main .productossection a {
+
+    main .conteiner-fabrica .imgfabric a img{
+        
+            width: 400px;
+            height: 250px;
+    }
+    main .carrusel-tres a img{
+        width: 100px;
+        height: 70px;
+    }
+    main .galeria-gimnasios-clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 5px;
+    }
+    main .gimnasios-clientes a img{
+        width: 180px;
+        height: 180px;
+    }
+    main .productossection .productosportada a {
         text-decoration: none;
         background-color: white;
         border-radius: 60px;
@@ -444,20 +538,20 @@ footer{
         padding: 10px 10px;
         font-size: 10px;
     }
-    main .productosportada h3{
+    main .productossection .productosportada h3{
         font-size: 10px;
     }
-    main .productosportada p{
+    main .productossection .productosportada p{
         font-size: 9px;
     }
-    main section .productosportada div img{
+    main .productossection .productosportada div img{
         width: 100px;
         height: 37.5px;
         display: flex;
         flex-direction: row;
         border-radius: 80px;
     }
-    .productosportada{
+      main .productossection .productosportada{
         display: flex; 
         flex-direction:row;
         justify-content: space-around;
@@ -466,22 +560,54 @@ footer{
         border-radius:  100px;
         flex-wrap: wrap;
     }
-    .fotoarañador img{
-        height: 300px;
-        height: 300px;
+    main .productossection .fotoarañador img{
+        width: 150px;
+        height: 150px;
         margin: 5px 5px 5px 5px;
         padding: 10px 10px 10px 10px;
-        border-radius: 100spx;
+        border-radius: 100px;
     }
-    .mediosdepago .oferta{
+
+    main .pagina-contacto .formulario-contacto{
+        width: 400px;
+        height: 400px;
+    }
+    main .pagina-contacto .subtituloscontacto h4{
+        font-size: 15px;
+    }
+
+
+    .clase-nosotros .presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+       
+    }
+
+    .clase-nosotros .presentacion a img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .clase-nosotros .presentacion p{
+        font-size: 20px;
+        padding: 0px 200px 0px 200px;
+    }
+
+
+
+
+
+    footer .mediosdepago div p .oferta{
         height: 20px;
         width: 20px;
     }
-    .mediosdepago .tarjeta{
+    footer .mediosdepago div p .tarjeta{
         height: 20px;
         width: 20px;
     }
-    .mediosdepago .camion{
+    footer .mediosdepago div p .camion{
         height: 20px;
         width: 20px;
     }
@@ -493,14 +619,15 @@ footer{
         font-size: 8px;
     }
     
-    main section .productosportada div img{
+    
+    main .productossection .productosportada div img{
         width: 100px;
         height: 37.5px;
         display: flex;
         flex-direction: column;
         border-radius: 80px;
     }
-    .productosportada{
+    main .productossection .productosportada{
         display: flex; 
         flex-direction:column;
         justify-content: space-around;
@@ -509,20 +636,69 @@ footer{
         border-radius:  100px;
         flex-wrap: wrap;
     }
-    .fotoarañador img{
+    main .productossection .fotoarañador img{
         height: 300px;
         height: 300px;
         margin: 5px 5px 5px 5px;
         padding: 10px 10px 10px 10px;
         border-radius: 100spx;
     }
-    main .productossection a {
+    main .productossection .productosportada a {
         text-decoration: none;
         background-color: white;
         border-radius: 60px;
         color:  black;
         padding: 10px 10px;
         font-size: 10px;
+    }
+    main .conteiner-fabrica .imgfabric a img{
+        
+        width: 350px;
+        height: 250px;
+    }
+    main .carrusel-tres a img{
+        width: 100px;
+        height: 70px;
+    }
+    main .galeria-gimnasios-clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+    }
+    main .gimnasios-clientes a img{
+        width: 180px;
+        height: 180px;
+    }
+    main .pagina-contacto .formulario-contacto{
+        width: 300px;
+        height: 300px;
+    }
+    main .pagina-contacto .subtituloscontacto h4{
+        font-size: 20px;
+    }
+    .pagina-contacto .subtituloscontacto a{
+        font-size: 13px;
+    }
+    .pagina-contacto .subtituloscontacto p{
+        font-size: 13px;
+    }
+
+    .clase-nosotros .presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+       
+    }
+
+    .clase-nosotros .presentacion a img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .clase-nosotros .presentacion p{
+        font-size: 15px;
+        padding: 0px 50px 0px 50px;
     }
 }
 @media screen and (max-width:576px){
@@ -533,7 +709,7 @@ footer{
         align-items: center;
         justify-content: space-between;
     }
-    .header nav ul{
+    .header nav .uldesord{
         flex-direction: column;
         margin: 0px;
     }
@@ -544,14 +720,14 @@ footer{
         margin: 80px;
         color: #ff5400;
     }
-    main section .productosportada div img{
+    main .productossection .productosportada div img{
         width: 50px;
         height: 40px;
         display: flex;
         flex-direction: column;
         border-radius: 80px;
     }
-    main .productossection a {
+    main .productossection .productosportada a {
         text-decoration: none;
         background-color: white;
         border-radius: 60px;
@@ -559,7 +735,7 @@ footer{
         padding: 7px 7px;
         font-size: 7px;
     }
-    main .productosportada p{
+    main .productossection .productosportada p{
         font-size: 6px;
     }
     main h2{
@@ -576,27 +752,79 @@ footer{
     footer .pie-de-pagina{
         padding: 10px 20px;
     }
+    main .conteiner-fabrica .imgfabric a img{
+        
+        width: 280px;
+        height: 250px;
+    }
+    main .carrusel-tres a img{
+        width: 100px;
+        height: 70px;
+        margin: 40px 0px 0px 55px;
+    }
+    main .galeria-gimnasios-clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+    }
+    main .gimnasios-clientes a img{
+        width: 160px;
+        height: 160px;
+    }
+    main .pagina-contacto .formulario-contacto{
+        width: 150px;
+        height: 150px;
+    }
+    main .pagina-contacto .subtituloscontacto h4{
+        font-size: 20px;
+    }
+    .pagina-contacto .subtituloscontacto a{
+        font-size: 13px;
+    }
+    .pagina-contacto .subtituloscontacto p{
+        font-size: 13px;
+    }
 }
 @media screen and (max-width:420px){
     main .Titulo-tienda-en-linea p{
         font-size: 8px;
     }
-    .fotoarañador img{
+    main .productossection .fotoarañador img{
         height: 150px;
         height: 150px;
         margin: 5px 5px 5px 5px;
         padding: 10px 10px 10px 10px;
         border-radius: 60px;
     }
-    .icon{
+    main .conteiner-fabrica .imgfabric a img{
+        
+        width: 180px;
+        height: 150px;
+    }
+    main .carrusel-tres a img{
+        width: 80px;
+        height: 40px;
+        margin: 30px 0px 0px 55px;
+    }
+    main .galeria-gimnasios-clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+    }
+    main .gimnasios-clientes a img{
+        width: 100px;
+        height: 100px;
+    }
+    footer .pie-de-pagina .social-icon .icon-eleme .icon{
         color: white;
         font-size: 20px;
     }
-    .tex{
+    footer .pie-de-pagina .tex{
         font-size: 15px;
     
     }
-    .menu-icon{
-        font-size: 10px;}
+    footer .pie-de-pagina .menu-pie .menu-elem .menu-icon{
+        font-size: 10px;
+    }
         
 }

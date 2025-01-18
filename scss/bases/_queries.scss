@@ -1,0 +1,360 @@
+@media screen and (max-width:867px){
+    .header nav {
+        flex-direction: column;
+        
+    }
+    .header nav .uldesord a{
+        margin: 10px;
+    }
+    .header nav .uldesord{
+        justify-content: center;
+        
+    }
+    .header nav .uldesord li{
+        align-items: center;
+    }
+    .navbar-bg-light{
+        
+        height:50px;    
+    }
+    
+    .fotoportada{
+        width: 80%;
+    }
+    main .Titulo-tienda-en-linea p{
+        font-size: 15px;
+    }
+    main .Titulo-tienda-en-linea h3{
+        font-size: 40px;
+        font-weight: 700;
+        margin: 80px;
+        color: #ff5400;
+    }
+    main h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 15px;
+        color: white;
+        padding: 5px 7.5px;
+        background: grey;
+        border-radius: 70px;
+        margin: 12.5px 175px 12.5px 175px;
+        padding: 5px 0px 5px 0px ;
+    }
+
+    main .conteiner-fabrica .imgfabric a img{
+        
+            width: 400px;
+            height: 250px;
+    }
+    main .carrusel-tres a img{
+        width: 100px;
+        height: 70px;
+    }
+    main .galeria-gimnasios-clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 5px;
+    }
+    main .gimnasios-clientes a img{
+        width: 180px;
+        height: 180px;
+    }
+    main .productossection .productosportada a {
+        text-decoration: none;
+        background-color: white;
+        border-radius: 60px;
+        color:  black;
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    main .productossection .productosportada h3{
+        font-size: 10px;
+    }
+    main .productossection .productosportada p{
+        font-size: 9px;
+    }
+    main .productossection .productosportada div img{
+        width: 100px;
+        height: 37.5px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 80px;
+    }
+      main .productossection .productosportada{
+        display: flex; 
+        flex-direction:row;
+        justify-content: space-around;
+        margin: 12.5px 150px 12.5px 150px;
+        padding: 7.5px 0px 7.5px 0px ;
+        border-radius:  100px;
+        flex-wrap: wrap;
+    }
+    main .productossection .fotoarañador img{
+        width: 150px;
+        height: 150px;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 100px;
+    }
+
+    main .pagina-contacto .formulario-contacto{
+        width: 400px;
+        height: 400px;
+    }
+    main .pagina-contacto .subtituloscontacto h4{
+        font-size: 15px;
+    }
+
+
+    .clase-nosotros .presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+       
+    }
+
+    .clase-nosotros .presentacion a img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .clase-nosotros .presentacion p{
+        font-size: 20px;
+        padding: 0px 200px 0px 200px;
+    }
+
+
+
+
+
+    footer .mediosdepago div p .oferta{
+        height: 20px;
+        width: 20px;
+    }
+    footer .mediosdepago div p .tarjeta{
+        height: 20px;
+        width: 20px;
+    }
+    footer .mediosdepago div p .camion{
+        height: 20px;
+        width: 20px;
+    }
+    
+   
+}
+@media screen and (max-width:689px){
+    main .Titulo-tienda-en-linea p{
+        font-size: 8px;
+    }
+    
+    
+    main .productossection .productosportada div img{
+        width: 100px;
+        height: 37.5px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 80px;
+    }
+    main .productossection .productosportada{
+        display: flex; 
+        flex-direction:column;
+        justify-content: space-around;
+        margin: 12.5px 150px 12.5px 150px;
+        padding: 7.5px 0px 7.5px 0px ;
+        border-radius:  100px;
+        flex-wrap: wrap;
+    }
+    main .productossection .fotoarañador img{
+        height: 300px;
+        height: 300px;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 100spx;
+    }
+    main .productossection .productosportada a {
+        text-decoration: none;
+        background-color: white;
+        border-radius: 60px;
+        color:  black;
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    main .conteiner-fabrica .imgfabric a img{
+        
+        width: 350px;
+        height: 250px;
+    }
+    main .carrusel-tres a img{
+        width: 100px;
+        height: 70px;
+    }
+    main .galeria-gimnasios-clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+    }
+    main .gimnasios-clientes a img{
+        width: 180px;
+        height: 180px;
+    }
+    main .pagina-contacto .formulario-contacto{
+        width: 300px;
+        height: 300px;
+    }
+    main .pagina-contacto .subtituloscontacto h4{
+        font-size: 20px;
+    }
+    .pagina-contacto .subtituloscontacto a{
+        font-size: 13px;
+    }
+    .pagina-contacto .subtituloscontacto p{
+        font-size: 13px;
+    }
+
+    .clase-nosotros .presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+       
+    }
+
+    .clase-nosotros .presentacion a img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .clase-nosotros .presentacion p{
+        font-size: 15px;
+        padding: 0px 50px 0px 50px;
+    }
+}
+@media screen and (max-width:576px){
+    main .Titulo-tienda-en-linea{
+    
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header nav .uldesord{
+        flex-direction: column;
+        margin: 0px;
+    }
+   
+    main .Titulo-tienda-en-linea h3{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 80px;
+        color: #ff5400;
+    }
+    main .productossection .productosportada div img{
+        width: 50px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 80px;
+    }
+    main .productossection .productosportada a {
+        text-decoration: none;
+        background-color: white;
+        border-radius: 60px;
+        color:  black;
+        padding: 7px 7px;
+        font-size: 7px;
+    }
+    main .productossection .productosportada p{
+        font-size: 6px;
+    }
+    main h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 6px;
+        color: white;
+        padding: 5px 7.5px;
+        background: grey;
+        border-radius: 70px;
+        margin: 12.5px 175px 12.5px 175px;
+        padding: 5px 0px 5px 0px ;
+    }
+    footer .pie-de-pagina{
+        padding: 10px 20px;
+    }
+    main .conteiner-fabrica .imgfabric a img{
+        
+        width: 280px;
+        height: 250px;
+    }
+    main .carrusel-tres a img{
+        width: 100px;
+        height: 70px;
+        margin: 40px 0px 0px 55px;
+    }
+    main .galeria-gimnasios-clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+    }
+    main .gimnasios-clientes a img{
+        width: 160px;
+        height: 160px;
+    }
+    main .pagina-contacto .formulario-contacto{
+        width: 150px;
+        height: 150px;
+    }
+    main .pagina-contacto .subtituloscontacto h4{
+        font-size: 20px;
+    }
+    .pagina-contacto .subtituloscontacto a{
+        font-size: 13px;
+    }
+    .pagina-contacto .subtituloscontacto p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:420px){
+    main .Titulo-tienda-en-linea p{
+        font-size: 8px;
+    }
+    main .productossection .fotoarañador img{
+        height: 150px;
+        height: 150px;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 60px;
+    }
+    main .conteiner-fabrica .imgfabric a img{
+        
+        width: 180px;
+        height: 150px;
+    }
+    main .carrusel-tres a img{
+        width: 80px;
+        height: 40px;
+        margin: 30px 0px 0px 55px;
+    }
+    main .galeria-gimnasios-clientes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 10px;
+    }
+    main .gimnasios-clientes a img{
+        width: 100px;
+        height: 100px;
+    }
+    footer .pie-de-pagina .social-icon .icon-eleme .icon{
+        color: white;
+        font-size: 20px;
+    }
+    footer .pie-de-pagina .tex{
+        font-size: 15px;
+    
+    }
+    footer .pie-de-pagina .menu-pie .menu-elem .menu-icon{
+        font-size: 10px;
+    }
+        
+}
