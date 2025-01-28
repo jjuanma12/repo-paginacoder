@@ -181,6 +181,8 @@ main h2{
     border-radius: 70px;
     margin: 25px 150px 25px 150px;
     padding: 10px 0px 10px 0px ;
+    list-style: none;
+    text-decoration: none;
 }
 
 main .productossection a {
@@ -290,7 +292,7 @@ main section .productosportada div img{
     max-width: 1100px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    /* grid-template-columns: repeat(2,1fr); */
     grid-gap: 50px ;
     margin-top: 90px;
 }
