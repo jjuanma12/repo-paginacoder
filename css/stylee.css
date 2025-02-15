@@ -1,307 +1,400 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     font-family: "Nunito", sans-serif;
-    
 }
-body{
-   background-color: #ffb703;
+
+body {
+    background-color: #ffb703;
 }
+
 .header {
     background-color: #ffb703;
     width: 100%;
     top: 0;
 }
 
-.header nav{
+.header nav {
     display: flex;
-    flex-direction: row ;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between; /* Cambiado para mejor distribución */
     align-items: center;
-    padding: 16px;
+    padding: 5%; /* Usar porcentaje para el padding */
+    height: 200px;
 }
-.header nav h1{
-    font-size: 35px;
+.d-flex {
+    width: 1500px;
+    height: 150px;
 }
-header nav h1 a ion-icon{
-   
-    font-size: 26px;
+
+form-control .me-2uno{
+font-size: 50px;
+}
+
+.d-flexuno{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+}
+.header nav h1 {
+    font-size: 3vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+}
+
+.header nav h1 a ion-icon {
+    font-size: 4rem; /* Cambiado a rem para ser más responsive */
     color: black;
 }
-header nav .uldesord{
-    /* width: 40%; */
-    position: static;
+
+.header nav .uldesord {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 10px;
-}
-.header nav .uldesord a{
-    margin: 10px;
+    margin: 0; /* Eliminado margen para mejor alineación */
 }
 
-.uldesord{
-    list-style: none;
-    
+.header .uno .uldesord {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0; /* Eliminado margen para mejor alineación */
 }
 
-/* main .imgport img{
-    width: 1349px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: fixed;
-    background-position: center;
-    border-radius: 30px;
-} */
-
-
-
-.header li:hover{
-    transform: scale(1.1);
-}
-.header nav a{
-    font-size:  20px;
+.header nav .uldesord a {
+    margin: 30px; /* Usar porcentaje para el margen */
+    font-size: 1.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
     color: white;
     text-decoration: none;
 }
-.header li a:hover{
+
+.header .uno .uldesord a {
+    margin: 30px; /* Usar porcentaje para el margen */
+    font-size: 1.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+    color: white;
+    text-decoration: none;
+}
+
+.uldesord {
+    list-style: none;
+    padding: 0; /* Asegúrate de que no haya padding por defecto */
+}
+
+.header li:hover {
+    transform: scale(1.1);
+}
+
+.header nav a {
+    font-size: 2vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+    color: white;
+    text-decoration: none;
+}
+.header .uno a {
+    font-size: 2vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+    color: white;
+    text-decoration: none;
+}
+
+.header li a:hover {
     color: beige;
-
 }
 
-.btn-outline-success{
- background-color:#ffb703;
- color: black;
- border: 1px solid black;
+.btn-outline-success {
+    background-color: #ffb703;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px; /* Añadir padding para mejor apariencia */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    width: 400px;
+    font-size: 80px;
+}
+.btn-outline-successuno {
+    background-color: #ffb703;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 20px; /* Añadir padding para mejor apariencia */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    width: 100px;
+    font-size: 15px;
 }
 
-.btn-outline-success:hover{
+.me-2{
+    font-size: 80px;
+}
+
+.btn-outline-success:hover {
     background-color: black;
 }
 
-.navbar-bg-light{
+
+.navbar-bg-light {
     background-color: #ffb703;
 }
 
-input .form-control-me-2{
+input .form-control-me-2 {
     background-color: black;
+    color: white; /* Asegúrate de que el texto sea visible */
+    padding: 10px; /* Añadir padding para mejor apariencia */
+    border: none; /* Eliminar borde por defecto */
+    border-radius: 5px; /* Bordes redondeados */
 }
 
-main .fotoportada{
+main .fotoportada {
     width: 100%;
-    height: 500px;
+    height: 40vh; /* Usar vh para que se ajuste a la altura de la pantalla */
     background-image: url(../imagenes/FotoBienvenida1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
-    background-position: center;
-    border-radius: 30px;
-    
+    background-position: center; /* Ajustar posición */
+    border-radius: 80px;
 }
-main .fotoportada-productos{
+
+main .fotoportada-productos {
     width: 100%;
-    height: 500px;
+    height: 50vh; /* Usar vh para que se ajuste a la altura de la pantalla */
     background-image: url(../imagenes/cats-6574788_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
-    background-position: center;
+    background-position: center; /* Ajustar posición */
     border-radius: 30px;
 }
 
-main .fotoportada-fabric{
-    width: 100%;
-    height: 500px;
+main .fotoportada-fabric {
+    width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
+    height: 50vh; /* Usar vh para que se ajuste a la altura de la pantalla */
     background-image: url(../imagenes/cats-5845070_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
-    background-position: center;
+    background-position: center; /* Ajustar posición */
     border-radius: 30px;
 }
 
-main .fondoportada-contacto{
+main .fondoportada-contacto {
     width: 100%;
-    height: 500px;
+    height: 50vh; /* Usar vh para que se ajuste a la altura de la pantalla */
     background-image: url(../imagenes/cute-3273789_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
-    background-position: center;
+    background-position: center; /* Ajustar posición */
     border-radius: 30px;
 }
-main .fondoportada-nosotros{
+
+main .fondoportada-nosotros {
     width: 100%;
-    height: 500px;
+    height: 50vh; /* Usar vh para que se ajuste a la altura de la pantalla */
     background-image: url(../imagenes/cat-family-5074959_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: fixed;
-    background-position: center;
+    background-position: center; /* Ajustar posición */
     border-radius: 30px;
 }
-main .Titulo-tienda-en-linea{
-    
-    height: 400px;
+
+main .Titulo-tienda-en-linea {
+    height: 40vh; /* Usar vh para que se ajuste a la altura de la pantalla */
     display: flex;
     align-items: center;
-    justify-content: stretch;
+    justify-content: center; /* Cambiado a center para mejor alineación */
     background-image: url(../imagenes/fondoparamainsuperior.png);
-    background-repeat: no-repeat;
-    mask-image: linear-gradient(
-        #ffb703 80%,
-        transparent
-    );
-    margin: 0px;
+    background-repeat: repeat;
+    mask-image: linear-gradient(#ffb703 80%, transparent);
+    margin: 0;
 }
 
-main .Titulo-tienda-en-linea h3{
-    font-size: 40px;
+main .Titulo-tienda-en-linea h3 {
+    font-size: 4vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
     font-weight: 700;
-    margin: 80px;
+    margin: 0; /* Eliminado margen para mejor alineación */
     color: #1b263b;
 }
 
-main .Titulo-tienda-en-linea p{
-    width: 900px;
-    margin: 50px;
-    font-size: 20px;
+main .Titulo-tienda-en-linea p {
+    width: 80%; /* Cambiado a porcentaje para mejor responsividad */
+    margin: 20px auto; /* Centrado y espaciado */
+    font-size: 2vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
 }
 
-main h2{
+main h2 {
     text-align: center;
-    font-weight: 700;
+    font-size: 100px;
     color: white;
-    padding: 10px 0px;
+    padding: 50px 0;
     background: gray;
-    border-radius: 70px;
-    margin: 25px 150px 25px 150px;
-    padding: 10px 0px 10px 0px ;
-    list-style: none;
-    text-decoration: none;
+    border-radius: 150px;
+    margin: 25px auto; /* Centrado */
+    width: 50%; /* Cambiado a porcentaje para mejor responsividad */
 }
 
 main .productossection a {
     text-decoration: none;
     background-color: #e85d04;
-    border-radius: 60px;
-    color:  black;
-    padding: 10px 5px;
-    font-size: 16px;
+    border-radius: 200px;
+    color: black;
+    padding: 70px 80px; /* Aumentado padding para mejor apariencia */
+    font-size: 1.2vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
 }
 
-main .productosportada h3{
-    font-size: 17px;
+main .productosportada h3 {
+color: beige;
+    font-size: 2.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
 }
+main .productosportadauno h3 {
+    color: beige;
+        font-size: 2.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+    }
 
-main .productosportada p{
-    font-size: 13px;
+
+main .productosportada p {
+    font-size: 1.4vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
 }
-
-main section .productosportada{
+main .productosportadauno p {
+    font-size: 1.4vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+}
+main .productossectionuno a {
+    text-decoration: none;
+    background-color: #e85d04;
+    border-radius: 200px;
+    color: black;
+    padding: 30px 80px; /* Aumentado padding para mejor apariencia */
+    font-size: 1.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+}
+main section .productosportada {
+    height: 500px;
+    width: 4500px;
     background-color: #f77f00;
-    margin: 30px auto;
+    margin: 90px auto;
     padding: 20px;
-    
+    border-radius: 200px; /* Añadir bordes redondeados */
 }
 
-main section .productosportada div img{
-    width: 150px;
-    height: 75px;
-    border-radius: 80px;
+main section .productosportadauno {
+    height: 200px;
+    width: 1600px;
+    background-color: #f77f00;
+    margin: 90px auto;
+    padding: 20px;
+    border-radius: 200px; /* Añadir bordes redondeados */
+}
+main .h2produc {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 20px 0;
+    background: gray;
+    border-radius: 150px;
+    margin: 25px auto; /* Centrado */
+    width: 50%; /* Cambiado a porcentaje para mejor responsividad */
 }
 
-.productosportada{
+main section .productosportada div img {
+    width: 800px; /* Cambiado a un tamaño más pequeño y responsivo */
+    height: 400px; /* Mantener la proporción de la imagen */
+    border-radius: 200px;
+}main section .productosportadauno div img {
+    width: 250px; /* Cambiado a un tamaño más pequeño y responsivo */
+    height: 150px; /* Mantener la proporción de la imagen */
+    border-radius: 100px;
+}
+.productosportada {
     display: flex; 
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 25px 300px 25px 300px;
-    padding: 15px 0px 15px 0px ;
-    border-radius:  100px;
+    margin: 25px auto; /* Cambiado a auto para centrar */
+    padding: 15px 0;
+    border-radius: 100px;
+    flex-wrap: wrap;
+}
+.productosportadauno {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px auto; /* Cambiado a auto para centrar */
+    padding: 15px 0;
+    border-radius: 100px;
     flex-wrap: wrap;
 }
 
-.boton--productosportada:hover{
+.boton--productosportada:hover {
     background-color: white;
     color: black;
 }
 
-.fotoarañador img{
-    height: 600px;
-    width: 800px;
-    margin: 10px 10px 10px 10px;
-    padding: 20px 20px 20px 20px;
+.fotoarañador img {
+    height: 2000px; 
+    width: 3000px; 
+    margin: 10px;
+    padding: 20px;
     border-radius: 100px;
 }
-.fotoarañador{
+
+.fotoarañador {
     display: flex;
     align-items: center;
-    align-content: center;
     justify-content: center;
 }
 
-.conteiner-fabrica{
+.conteiner-fabrica {
     display: flex;
     align-content: center;
-    margin:60px;
+    margin: 60px auto; /* Cambiado a auto para centrar */
 }
 
-.imgfabric a img{
-    width: 700px;
-    height: 500px;
+.imgfabric a img {
+    width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    max-width: 700px; /* Limitar el tamaño máximo */
     border-radius: 60px;
     margin: 9px;
 }
 
-.carrusel-tres a img{
-    width: 300px;
-    height: 200px;
-   margin: 40px 0px 0px 75px;
-   border-radius: 60px;
+.carrusel-tres a img {
+    width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    max-width: 300px; /* Limitar el tamaño máximo */
+    margin: 40px 0 0 75px;
+    border-radius: 60px;
 }
 
-.galeria-gimnasios-clientes{
+.galeria-gimnasios-clientes {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr ;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajustar columnas responsivas */
     gap: 25px;
 }
 
-.gimnasios-clientes a img{
-    width: 400px;
-    height: 400px;
+.gimnasios-clientes a img {
+    width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+    max-width: 400px; /* Limitar el tamaño máximo */
     border-radius: 50px;
 }
 
-
-
-.subtituloscontacto h4{
-    font-size: 25px;
+.subtituloscontacto h4 {
+    font-size: 2vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
     margin-bottom: 15px;
 }
 
-.subtituloscontacto p{
+.subtituloscontacto p {
     line-height: 1.6;
     margin-bottom: 30px;
-    font-size: 15px;
+    font-size: 1.2vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
 }
 
-.pagina-contacto{
+.pagina-contacto {
     width: 100%;
     max-width: 1100px;
     margin: auto;
     display: grid;
-    /* grid-template-columns: repeat(2,1fr); */
-    grid-gap: 50px ;
+    grid-gap: 50px;
     margin-top: 90px;
 }
 
-.subtituloscontacto a{
-    font-size: 17px;
+.subtituloscontacto a {
+    font-size: 1.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
     display: inline-block;
     text-decoration: none;
     width: 100%;
@@ -311,95 +404,91 @@ main section .productosportada div img{
 }
 
 
-.pagina-contacto form .campo, textarea{
+.pagina-contacto form .campo, 
+.pagina-contacto form textarea {
     width: 100%;
     padding: 15px 10px;
-    font-size: 15px;
+    font-size: 1rem; /* Cambiado a rem para mejor escalabilidad */
     border: 1px solid #dbdbdb;
     margin-bottom: 20px;
     border-radius: 80px;
-    outline: 0px;
+    outline: none; /* Cambiado a none para mayor claridad */
 }
 
-
-main .pagina-contacto .formulario-contacto{
-    width: 500px;
-    height: 500px;
+main .pagina-contacto .formulario-contacto {
+    width: 90%; /* Cambiado a porcentaje para mejor responsividad */
+    max-width: 500px; /* Limitar el tamaño máximo */
+    height: auto; /* Cambiado a auto para que se ajuste al contenido */
 }
 
-
-.clase-nosotros{
-    background-image: url(../imagenes/Diseño\ sin\ título\ \(5\).png) ;
-    mask-image: linear-gradient(
-        #ffb703 97%,
-        transparent
-    );
+.clase-nosotros {
+    background-image: url(../imagenes/Diseño\ sin\ título\ \(5\).png);
+    mask-image: linear-gradient(#ffb703 97%, transparent);
 }
 
-.presentacion{
+.presentacion {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 600px;
-   
+    height: auto; /* Cambiado a auto para que se ajuste al contenido */
+    padding: 20px; /* Añadido padding para mejor espaciado */
 }
 
-.presentacion img{
-    width: 400px;
-    height: 300px;
-    align-items: center;
+.presentacion img {
+    width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
+    max-width: 400px; /* Limitar el tamaño máximo */
+    height: auto; /* Mantener la proporción de la imagen */
     border-radius: 10%;
-    mask-image: linear-gradient(
-        #ffb703 60%,
-        transparent
-    );
+    mask-image: linear-gradient(#ffb703 60%, transparent);
 }
 
-.presentacion p{
-    font-size: 20px;
-    margin: 0px 10px 0px 10px;
-    padding: 0px 400px 0px 400px;
-    margin-top: 30px;
-    
+.presentacion p {
+    font-size: 1.2rem; /* Cambiado a rem para mejor escalabilidad */
+    margin: 20px 10px; /* Ajustado margen */
+    padding: 0 20px; /* Cambiado a porcentaje para mejor responsividad */
 }
 
-.present{
+.present {
     color: black;
 }
-
-
-
-
-
-
-
-
-.mediosdepago div{
+.mediosdepago p{
+    font-size: 120px;
+}
+.mediosdepagouno p{
+    font-size: 30px;
+}
+.mediosdepago div {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
 }
-.mediosdepago div p img{
-  display: flex;
-  align-content: center;
+.mediosdepagouno div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.mediosdepago .oferta{
-    height: 40px;
-    width: 40px;
+.mediosdepago div p img {
+    display: flex;
+    align-content: center;
 }
-.mediosdepago .tarjeta{
-    height: 40px;
-    width: 40px;
+
+.mediosdepago .oferta,
+.mediosdepago .tarjeta,
+.mediosdepago .camion {
+    height: 250px;
+    width: 250px;
 }
-.mediosdepago .camion{
-    height: 40px;
-    width: 40px;
+.mediosdepagouno .oferta,
+.mediosdepagouno .tarjeta,
+.mediosdepagouno .camion {
+    height: 100px;
+    width: 100px;
 }
-footer .pie-de-pagina{
+
+footer .pie-de-pagina {
     position: relative;
-    width: 100%;
+    width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
     background-color: grey;
     padding: 20px 50px;
     display: flex;
@@ -407,47 +496,67 @@ footer .pie-de-pagina{
     align-items: center;
     flex-direction: column;   
 }
-.social-icon{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      margin: 10px 5px;
-      flex-wrap: wrap;
-}
-.icon-eleme{
-    list-style: none;
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
 }
 
-.icon{
+.icon-eleme {
+    list-style: none;
+}
+.icon-elemeuno {
+    list-style: none;
+}
+.icon-eleme ion-icon{
+    height: 200px;
+    width: 200px;
+}
+.icon-elemeuno ion-icon{
+    height: 80px;
+    width: 80px;
+}
+.icon {
     color: white;
-    font-size: 32px;
+    font-size: 2rem; /* Cambiado a rem para mejor escalabilidad */
     display: inline-block;
-    margin: 0px 10px;
+    margin: 0 10px;
     transition: 0.5s;
 }
 
-.icon :hover{
+.icon:hover {
     transform: translateY(-10px);
-
 }
 
-.menu-pie{
+.menu-pie {
     display: flex;
     justify-content: center;
     position: relative;
     align-items: center;
-    margin: 10px 0px;
+    margin: 10px 0;
     flex-wrap: wrap;   
 }
 
-.menu-elem{
+.menu-elem {
     list-style: none;
 }
 
-.menu-icon{
+.menu-icon {
     color: white;
-    font-size: 20px;
+    font-size: 5rem; /* Cambiado a rem para mejor escalabilidad */
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px 10px;
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.menu-iconuno {
+    color: white;
+    font-size: 2rem; /* Cambiado a rem para mejor escalabilidad */
     display: inline-block;
     text-decoration: none;
     margin: 5px 10px;
@@ -459,17 +568,27 @@ footer .pie-de-pagina{
     opacity: 1;
 }
 
-.tex{
+.tex {
     color: white;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 20px;
-
+    font-size: 5rem; /* Cambiado a rem para mejor escalabilidad */
+}
+.texuno {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 2rem; /* Cambiado a rem para mejor escalabilidad */
 }
 
-footer{
+footer {
     margin-top: 100px;
+}
+
+@media screen and (max-width:1920px){
+   
 }
 
 
@@ -499,6 +618,18 @@ footer{
     .fotoportada{
         width: 80%;
     }
+
+    main .fotoportada-fabric{
+        width: 200%;
+        height: 500px;
+        background-image: url(../imagenes/cats-5845070_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+        background-position: center;
+        border-radius: 30px;
+    }
+
     main .productossection .fotoarañador img{
         height: 500px;
         width: 550px;
@@ -620,12 +751,13 @@ footer{
         width: 20px;
     }
     
+    
    
 }
 
 @media screen and (max-width:768px){
     h2{
-        margin: 50px;
+        margin: 100px;
     }
      
     
@@ -645,9 +777,15 @@ footer{
         padding: 10px 10px;
         font-size: 15px;
     }
-   
+    main .productossection .productosportada{
+        margin: 25px 50px 12.5px 50px;
+    }
+    main .productossection .productosportada h3{
+        font-size: 25px;
+        color: beige;
+    }
     main .Titulo-tienda-en-linea h3{
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 700;
         margin: 80px;
         color: #ff5400;
@@ -661,24 +799,35 @@ footer{
     }
     main .productossection .fotoarañador img{
         height: 400px;
-        width: 450px;
+        width: 500px;
         margin: 5px 5px 5px 5px;
         padding: 10px 10px 10px 10px;
         border-radius: 60px;
     }
+
+    main .fotoportada-fabric{
+        width: 100%;
+        height: 500px;
+        background-image: url(../imagenes/cats-5845070_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+        background-position: center;
+        border-radius: 30px;
+    }
    
     main .productossection .productosportada p{
-        font-size: 10px;
+        font-size: 20px;
     }
     main h2{
         text-align: center;
         font-weight: 700;
-        font-size: 6px;
+        font-size: 25px;
         color: white;
         padding: 5px 7.5px;
         background: grey;
         border-radius: 70px;
-        margin: 12.5px 175px 12.5px 175px;
+        margin: 35px 175px 35px 175px;
         padding: 5px 0px 5px 0px ;
     }
     footer .pie-de-pagina{
@@ -686,13 +835,13 @@ footer{
     }
     main .conteiner-fabrica .imgfabric a img{
         
-        width: 280px;
-        height: 250px;
+        width: 380px;
+        height: 290px;
     }
     main .carrusel-tres a img{
-        width: 100px;
-        height: 70px;
-        margin: 40px 0px 0px 55px;
+        width: 180px;
+        height: 110px;
+        margin: 35px 0px 0px 55px;
     }
     main .galeria-gimnasios-clientes{
         display: grid;
@@ -700,8 +849,8 @@ footer{
         gap: 10px;
     }
     main .gimnasios-clientes a img{
-        width: 160px;
-        height: 160px;
+        width: 210px;
+        height: 210px;
     }
     main .pagina-contacto .formulario-contacto{
         width: 150px;
@@ -716,11 +865,21 @@ footer{
     .pagina-contacto .subtituloscontacto p{
         font-size: 13px;
     }
+    footer .pie-de-pagina{
+        position: relative;
+        width: 100%;
+        background-color: grey;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+    }
 }
 @media screen and (max-width:480px){
     main h2 {
-        margin: 50px ;
-        padding: 30px;
+        margin: 30px ;
+        padding: 10px;
         font-size: 20px;
     }
 
@@ -760,13 +919,13 @@ footer{
     }
     main .conteiner-fabrica .imgfabric a img{
         
-        width: 180px;
-        height: 150px;
+        width: 210px;
+        height: 200px;
     }
     main .carrusel-tres a img{
-        width: 80px;
-        height: 40px;
-        margin: 30px 0px 0px 55px;
+        width: 120px;
+        height: 80px;
+        margin: 20px 0px 0px 38px;
     }
     main .galeria-gimnasios-clientes{
         display: grid;
@@ -774,8 +933,8 @@ footer{
         gap: 10px;
     }
     main .gimnasios-clientes a img{
-        width: 100px;
-        height: 100px;
+        width: 140px;
+        height: 140px;
     }
     footer .pie-de-pagina .social-icon .icon-eleme .icon{
         color: white;
