@@ -1134,6 +1134,18 @@ footer {
         padding: 10%;
         height: 260px;
     }
+    main section .productosportadauno {
+        height: 90px;
+        width: 360px;
+        background-color: #f77f00;
+        margin: 50px 60px;
+        border-radius: 200px;
+    }
+    main section .productosportadauno div img {
+        width: 70px;
+        height: 70px;
+        border-radius: 100px;
+    }
     main .fotoportada {
         width: 420px;
         height: 70vh; /* Usar vh para que se ajuste a la altura de la pantalla */
@@ -1176,7 +1188,7 @@ footer {
     }
     main .Titulo-tienda-en-linea {
         height: 400px;
-        width: 166%;
+        width: 96%;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -1229,23 +1241,28 @@ footer {
         font-size: 45px;
     }
     main .Titulo-tienda-en-linea p {
-        font-size: 19px;
+        font-size: 12px;
         margin: 10px;
     }
     main .productosportadauno h3 {
         color: beige;
-        font-size: 6vw;
+        font-size: 3vw;
     }
     main .productosportadauno p {
-        font-size: 3vw;
+        font-size: 2vw;
     }
     main .productossectionuno a {
         text-decoration: none;
         background-color: #e85d04;
         border-radius: 200px;
         color: black;
-        padding: 20px 10px;
-        font-size: 4vw;
+        padding: 10px 5px;
+        font-size: 2vw;
+    }
+    main section .productosportadauno div img {
+        width: 80px;
+        height: 60px;
+        border-radius: 100px;
     }
     
 
