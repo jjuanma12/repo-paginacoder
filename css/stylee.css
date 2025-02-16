@@ -2,8 +2,8 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     font-family: "Nunito", sans-serif;
 }
 
@@ -24,6 +24,13 @@ body {
     align-items: center;
     padding: 5%; /* Usar porcentaje para el padding */
     height: 200px;
+}
+.header .uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Cambiado para mejor distribución */
+    align-items: center;
+    
 }
 .d-flex {
     width: 1500px;
@@ -145,7 +152,7 @@ input .form-control-me-2 {
 
 main .fotoportada {
     width: 100%;
-    height: 40vh; /* Usar vh para que se ajuste a la altura de la pantalla */
+    height: 70vh; /* Usar vh para que se ajuste a la altura de la pantalla */
     background-image: url(../imagenes/FotoBienvenida1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -243,7 +250,7 @@ color: beige;
 }
 main .productosportadauno h3 {
     color: beige;
-        font-size: 2.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+        font-size: 1.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
     }
 
 
@@ -258,8 +265,8 @@ main .productossectionuno a {
     background-color: #e85d04;
     border-radius: 200px;
     color: black;
-    padding: 30px 80px; /* Aumentado padding para mejor apariencia */
-    font-size: 1.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+    padding: 20px 10px; /* Aumentado padding para mejor apariencia */
+    font-size: 1.3vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
 }
 main section .productosportada {
     height: 500px;
@@ -271,22 +278,21 @@ main section .productosportada {
 }
 
 main section .productosportadauno {
-    height: 200px;
-    width: 1600px;
+    height: 170px;
+    width: 1100px;
     background-color: #f77f00;
-    margin: 90px auto;
-    padding: 20px;
+    margin: 50px auto;
     border-radius: 200px; /* Añadir bordes redondeados */
 }
 main .h2produc {
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     color: white;
     padding: 20px 0;
     background: gray;
     border-radius: 150px;
     margin: 25px auto; /* Centrado */
-    width: 50%; /* Cambiado a porcentaje para mejor responsividad */
+    width: 550px; /* Cambiado a porcentaje para mejor responsividad */
 }
 
 main section .productosportada div img {
@@ -295,7 +301,7 @@ main section .productosportada div img {
     border-radius: 200px;
 }main section .productosportadauno div img {
     width: 250px; /* Cambiado a un tamaño más pequeño y responsivo */
-    height: 150px; /* Mantener la proporción de la imagen */
+    height: 130px; /* Mantener la proporción de la imagen */
     border-radius: 100px;
 }
 .productosportada {
@@ -345,31 +351,31 @@ main section .productosportada div img {
 }
 
 .imgfabric a img {
-    width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
-    height: auto; /* Mantener la proporción de la imagen */
+    width: 500px; /* Cambiado a 100% para que se ajuste al contenedor */
+    height: 500px; /* Mantener la proporción de la imagen */
     max-width: 700px; /* Limitar el tamaño máximo */
     border-radius: 60px;
-    margin: 9px;
+    margin: 90px;
 }
 
 .carrusel-tres a img {
-    width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
-    height: auto; /* Mantener la proporción de la imagen */
-    max-width: 300px; /* Limitar el tamaño máximo */
-    margin: 40px 0 0 75px;
+    width: 390px; /* Cambiado a 100% para que se ajuste al contenedor */
+    height: 200px; /* Mantener la proporción de la imagen */
+    max-width: 500px; /* Limitar el tamaño máximo */
+    margin: 90px 0 0 60px;
     border-radius: 60px;
 }
 
 .galeria-gimnasios-clientes {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Ajustar columnas responsivas */
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); /* Ajustar columnas responsivas */
     gap: 25px;
 }
 
 .gimnasios-clientes a img {
-    width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
+    width: 200px; /* Cambiado a 100% para que se ajuste al contenedor */
     height: auto; /* Mantener la proporción de la imagen */
-    max-width: 400px; /* Limitar el tamaño máximo */
+    max-width: 300px; /* Limitar el tamaño máximo */
     border-radius: 50px;
 }
 
@@ -436,15 +442,15 @@ main .pagina-contacto .formulario-contacto {
 
 .presentacion img {
     width: 100%; /* Cambiado a 100% para que se ajuste al contenedor */
-    max-width: 400px; /* Limitar el tamaño máximo */
+    max-width: 700px; /* Limitar el tamaño máximo */
     height: auto; /* Mantener la proporción de la imagen */
     border-radius: 10%;
     mask-image: linear-gradient(#ffb703 60%, transparent);
 }
 
 .presentacion p {
-    font-size: 1.2rem; /* Cambiado a rem para mejor escalabilidad */
-    margin: 20px 10px; /* Ajustado margen */
+    font-size: 2rem; /* Cambiado a rem para mejor escalabilidad */
+    margin: 50px 150px; /* Ajustado margen */
     padding: 0 20px; /* Cambiado a porcentaje para mejor responsividad */
 }
 
@@ -452,10 +458,10 @@ main .pagina-contacto .formulario-contacto {
     color: black;
 }
 .mediosdepago p{
-    font-size: 120px;
+    font-size: 70px;
 }
 .mediosdepagouno p{
-    font-size: 30px;
+    font-size: 20px;
 }
 .mediosdepago div {
     display: flex;
@@ -476,14 +482,14 @@ main .pagina-contacto .formulario-contacto {
 .mediosdepago .oferta,
 .mediosdepago .tarjeta,
 .mediosdepago .camion {
-    height: 250px;
-    width: 250px;
+    height: 150px;
+    width: 150px;
 }
 .mediosdepagouno .oferta,
 .mediosdepagouno .tarjeta,
 .mediosdepagouno .camion {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }
 
 footer .pie-de-pagina {
@@ -511,14 +517,15 @@ footer .pie-de-pagina {
 }
 .icon-elemeuno {
     list-style: none;
+    
 }
 .icon-eleme ion-icon{
     height: 200px;
     width: 200px;
 }
 .icon-elemeuno ion-icon{
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
 }
 .icon {
     color: white;
@@ -556,7 +563,7 @@ footer .pie-de-pagina {
 }
 .menu-iconuno {
     color: white;
-    font-size: 2rem; /* Cambiado a rem para mejor escalabilidad */
+    font-size: 1rem; /* Cambiado a rem para mejor escalabilidad */
     display: inline-block;
     text-decoration: none;
     margin: 5px 10px;
@@ -580,29 +587,62 @@ footer .pie-de-pagina {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 2rem; /* Cambiado a rem para mejor escalabilidad */
+    font-size: 1rem; /* Cambiado a rem para mejor escalabilidad */
 }
 
 footer {
     margin-top: 100px;
 }
 
-@media screen and (max-width:1920px){
-   
-}
 
-
-@media screen and (max-width:1025px){
+@media screen and (max-width:1026px){
 
     h2{
         margin: 50px;
     }
-    .header nav {
+    .header nav .container-fluid{
         flex-direction: column;
-        
+        height: auto;
+        width: auto;    
     }
+    .header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Cambiado para mejor distribución */
+        align-items: center;
+        padding: 5%; /* Usar porcentaje para el padding */
+        height: 100px;
+    }
+    .header .uno {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Cambiado para mejor distribución */
+        align-items: center;
+        margin: 0px 50px;
+    }
+    .header .uno h1 {
+        font-size: 2.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+    }
+    .d-flex {
+        width: 200px;
+        height: 10px;
+    }
+    .d-flexuno {
+        width: 200px;
+        height: 200px;
+    }
+    .me-2{
+        font-size: 10px;
+    }
+    
     .header nav .uldesord a{
         margin: 10px;
+    }
+    .header .uno .uldesord a {
+        margin: 30px; /* Usar porcentaje para el margen */
+        font-size: 1.5vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+        color: white;
+        text-decoration: none;
     }
     .header nav .uldesord{
         justify-content: center;
@@ -611,6 +651,15 @@ footer {
     .header nav .uldesord li{
         align-items: center;
     }
+    .btn-outline-success {
+        background-color: #ffb703;
+        color: black;
+        border: 1px solid black;
+        padding: 8px 10px; /* Añadir padding para mejor apariencia */
+        border-radius: 5px; /* Añadir bordes redondeados */
+        width: 70px;
+        font-size: 10px;
+    }
     .navbar-bg-light{
         
         height:50px;    
@@ -618,9 +667,17 @@ footer {
     .fotoportada{
         width: 80%;
     }
+    main section .productosportada {
+        height: 100px;
+        width: 700px;
+        background-color: #f77f00;
+        margin: 90px auto;
+        padding: 20px;
+        border-radius: 200px; /* Añadir bordes redondeados */
+    }
 
     main .fotoportada-fabric{
-        width: 200%;
+        width: 102%;
         height: 500px;
         background-image: url(../imagenes/cats-5845070_1280.jpg);
         background-repeat: no-repeat;
@@ -629,13 +686,25 @@ footer {
         background-position: center;
         border-radius: 30px;
     }
-
-    main .productossection .fotoarañador img{
-        height: 500px;
-        width: 550px;
-        margin: 5px 5px 5px 5px;
-        padding: 10px 10px 10px 10px;
-        border-radius: 60px;
+    main .h2produc {
+        text-align: center;
+        font-size: 16px;
+        color: white;
+        padding: 10px 0;
+        background: gray;
+        border-radius: 150px;
+        margin: 25px auto;
+        width: 450px;
+        height: 35px;
+    }
+    .conteiner-fabrica {
+        display: flex;
+        align-content: center;
+        margin: 10px 2px;
+    }
+    main .conteiner-fabrica .imgfabric a img {
+        width: 500px;
+        height: 350px;
     }
     main .Titulo-tienda-en-linea p{
         font-size: 20px;
@@ -654,23 +723,18 @@ footer {
         padding: 5px 7.5px;
         background: grey;
         border-radius: 70px;
-        margin: 12.5px 175px 12.5px 175px;
+        margin: 12.5px 175px 12.5px 275px;
         padding: 5px 0px 5px 0px ;
     }
-
-    main .conteiner-fabrica .imgfabric a img{
-        
-            width: 400px;
-            height: 250px;
+    .carrusel-tres a img {
+        width: 200px;
+        height: 150px;
     }
-    main .carrusel-tres a img{
-        width: 100px;
-        height: 70px;
-    }
-    main .galeria-gimnasios-clientes{
+    main .galeria-gimnasios-clientes {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
+        margin: 80px;
     }
     main .gimnasios-clientes a img{
         width: 180px;
@@ -701,7 +765,7 @@ footer {
         display: flex; 
         flex-direction:row;
         justify-content: space-around;
-        margin: 12.5px 150px 12.5px 150px;
+        margin: 12.5px 150px 12.5px 170px;
         padding: 7.5px 0px 7.5px 0px ;
         border-radius:  100px;
         flex-wrap: wrap;
@@ -715,7 +779,25 @@ footer {
         font-size: 15px;
     }
 
-
+    main section .productosportadauno {
+        height: 170px;
+        width: 800px;
+        background-color: #f77f00;
+        margin: 50px auto;
+        border-radius: 200px; /* Añadir bordes redondeados */
+    }
+    main section .productosportadauno div img {
+    width: 150px; /* Cambiado a un tamaño más pequeño y responsivo */
+    height: 90px; /* Mantener la proporción de la imagen */
+    border-radius: 100px;
+    }
+    .mediosdepagouno p {
+        font-size: 15px;
+    }
+    .icon-eleme ion-icon{
+        height: 50px;
+        width: 50px;
+    }
     .clase-nosotros .presentacion{
         display: flex;
         flex-direction: column;
@@ -733,7 +815,25 @@ footer {
         font-size: 20px;
         padding: 0px 200px 0px 200px;
     }
-
+    .mediosdepago p{
+        font-size: 15px;
+    }
+    .menu-icon {
+        color: white;
+        font-size: 1rem; /* Cambiado a rem para mejor escalabilidad */
+        display: inline-block;
+        text-decoration: none;
+        margin: 5px 10px;
+        opacity: 0.5;
+        transition: 0.3s;
+    }
+    .tex {
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 1rem; /* Cambiado a rem para mejor escalabilidad */
+    }
 
 
 
@@ -759,20 +859,75 @@ footer {
     h2{
         margin: 100px;
     }
-     
+    .header nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; /* Cambiado para mejor distribución */
+        align-items: center;
+        padding: 5%; /* Usar porcentaje para el padding */
+        height: 100px;
+    }
+    .header .uno {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px px;
+    }
     
     main .Titulo-tienda-en-linea{
     
         height: 400px;
+        width: 116%;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
     .header nav .uldesord{
-        flex-direction: column;
+        flex-direction: row;
         margin: 0px;
     }
-
+    main .h2produc {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        padding: 10px 0;
+        background: gray;
+        border-radius: 150px;
+        margin: 40px 10rem;
+        width: 550px;
+    }
+    main section .productosportadauno {
+        height: 160px;
+        width: 740px;
+        background-color: #f77f00;
+        margin: 50px 60px;
+        border-radius: 200px;
+    }
+    main .productosportadauno h3 {
+        color: beige;
+        font-size: 2vw;
+    }
+    main .productosportadauno p {
+        font-size: 1.8vw;
+    }
+    main .productossectionuno a {
+        text-decoration: none;
+        background-color: #e85d04;
+        border-radius: 200px;
+        color: black;
+        padding: 20px 10px;
+        font-size: 1.9vw;
+    }
+    main .fotoportada-productos {
+        width: 116%;
+        height: 50vh; /* Usar vh para que se ajuste a la altura de la pantalla */
+        background-image: url(../imagenes/cats-6574788_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; /* Ajustar posición */
+        border-radius: 30px;
+    }
     main .productossection .productosportada a{
         padding: 10px 10px;
         font-size: 15px;
@@ -785,7 +940,7 @@ footer {
         color: beige;
     }
     main .Titulo-tienda-en-linea h3{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 700;
         margin: 80px;
         color: #ff5400;
@@ -805,8 +960,8 @@ footer {
         border-radius: 60px;
     }
 
-    main .fotoportada-fabric{
-        width: 100%;
+    main .fotoportada-fabric {
+        width: 121%;
         height: 500px;
         background-image: url(../imagenes/cats-5845070_1280.jpg);
         background-repeat: no-repeat;
@@ -815,7 +970,15 @@ footer {
         background-position: center;
         border-radius: 30px;
     }
-   
+    main .fondoportada-contacto {
+        width: 119%;
+        height: 50vh;
+        background-image: url(../imagenes/cute-3273789_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px;
+    }
     main .productossection .productosportada p{
         font-size: 20px;
     }
@@ -838,15 +1001,16 @@ footer {
         width: 380px;
         height: 290px;
     }
-    main .carrusel-tres a img{
+    main .carrusel-tres a img {
         width: 180px;
         height: 110px;
-        margin: 35px 0px 0px 55px;
+        margin: 85px 0px 0px 5px;
     }
-    main .galeria-gimnasios-clientes{
+    main .galeria-gimnasios-clientes {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
+        margin: 53px;
     }
     main .gimnasios-clientes a img{
         width: 210px;
@@ -856,24 +1020,57 @@ footer {
         width: 150px;
         height: 150px;
     }
-    main .pagina-contacto .subtituloscontacto h4{
+    main .pagina-contacto .subtituloscontacto h4 {
+        font-size: 30px;
+        color: beige;
+        margin: 15px;
+        text-decoration: underline;
+    }
+    .pagina-contacto .subtituloscontacto a {
+        font-size: 13px;
+        margin: 15px;
+    }
+    .clase-nosotros .presentacion p {
         font-size: 20px;
+        padding: 0px 20px 0px 20px;
     }
-    .pagina-contacto .subtituloscontacto a{
-        font-size: 13px;
+    .clase-nosotros .presentacion {
+        display: flex
+;
+        flex-direction: column;
+        align-items: center;
+        height: 650px;
     }
-    .pagina-contacto .subtituloscontacto p{
-        font-size: 13px;
-    }
-    footer .pie-de-pagina{
-        position: relative;
+    .pagina-contacto {
         width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-gap: 50px;
+        margin-top: 80px;
+    }
+    .pagina-contacto .subtituloscontacto p {
+        font-size: 20px;
+        margin: 15px;
+    }
+    .pagina-contacto form .campo, .pagina-contacto form textarea {
+        width: 300%;
+        padding: 15px 10px;
+        font-size: 0.7rem;
+        border: 1px solid #dbdbdb;
+        margin-bottom: 10px;
+        border-radius: 80px;
+        outline: none;
+    }
+    footer .pie-de-pagina {
+        position: relative;
+        width: 121%;
         background-color: grey;
         padding: 20px 50px;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;   
+        flex-direction: column;
     }
 }
 @media screen and (max-width:480px){
@@ -882,7 +1079,136 @@ footer {
         padding: 10px;
         font-size: 20px;
     }
+    main .h2produc {
+        text-align: center;
+        font-size: 15px;
+        color: white;
+        padding: 10px 0;
+        background: gray;
+        border-radius: 150px;
+        margin: 35px 8rem;
+        width: 230px;
+    }
+    main .fotoportada-fabric {
+        width: 102%;
+        height: 500px;
+        background-image: url(../imagenes/cats-5845070_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: fixed;
+        background-position: center;
+        border-radius: 30px;
+    }
+    .header .uno {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 80px;
+    }
+    .header .uno h1 {
+    font-size: 8vw;
+    }
+    .header .uno .uldesord a {
+        margin: 15px;
+        font-size: 3vw;
+        color: white;
+        text-decoration: none;
+    }
+    .d-flexuno {
+        width: 200px;
+        height: 90px;
+    }
+    .header nav h1 {
+        font-size: 10vw; /* Usar vw para que se ajuste al tamaño de la pantalla */
+    }
+    .header nav .uldesord a{
+        margin: 10px;
+        font-size: 15px;
+    }
+    .header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10%;
+        height: 260px;
+    }
+    main .fotoportada {
+        width: 420px;
+        height: 70vh; /* Usar vh para que se ajuste a la altura de la pantalla */
+        background-image: url(../imagenes/FotoBienvenida1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; /* Ajustar posición */
+        border-radius: 80px;
+    }
+    main .fotoportada-productos {
+        width: 166%;
+        height: 50vh;
+        background-image: url(../imagenes/cats-6574788_1280.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px;
+    }
+    main .productossection .fotoarañador img{
+        height: 300px;
+        width: 300px;
+        margin: 5px 5px 5px 5px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 60px;
+    }
+    main h2{
+        text-align: center;
+        font-weight: 700;
+        font-size: 25px;
+        color: white;
+        padding: 5px 7.5px;
+        background: grey;
+        border-radius: 70px;
+        margin: 35px 275px 35px 95px;
+        padding: 5px 0px 5px 0px ;
+    }
+    .me-2{
+        font-size: 10px;
+        height: 40px;
+    }
+    main .Titulo-tienda-en-linea {
+        height: 400px;
+        width: 166%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main .productossection .productosportada div img{
+        width: 50px;
+        height: 40px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 80px;
+    }
 
+    main section .productosportada {
+        height: 70px;
+        width: 360px;
+        background-color: #f77f00;
+        margin: 90px auto;
+        padding: 20px;
+        border-radius: 200px; /* Añadir bordes redondeados */
+    }
+
+    main .productossection .productosportada h3{
+        font-size: 12px;
+        color: beige;
+    }
+    main .productossection .productosportada p{
+        font-size: 9px;
+    }
+    main .productossection .productosportada a{
+        padding: 10px 10px;
+        font-size: 7px;
+    }
     main .productossection .productosportada{
         display: flex; 
         flex-direction:column;
@@ -892,24 +1218,38 @@ footer {
         border-radius:  100px;
         flex-wrap: wrap;
     }
-
-    main .productossection .productosportada p{
-        font-size: 15px;
+    .fotoarañador img {
+        height: 200px; 
+        width: 300px; 
+        margin: 0px;
+        padding: 20px;
+        border-radius: 100px;
     }
-
-    main .productossection .productosportada a{
-        padding: 10px 10px;
-        font-size: 15px;
+    main .Titulo-tienda-en-linea h3 {
+        font-size: 45px;
     }
-    
-    main .Titulo-tienda-en-linea h3{
-        font-size: 30px;
-    }
-    main .Titulo-tienda-en-linea p{
-        font-size: 14px;
+    main .Titulo-tienda-en-linea p {
+        font-size: 19px;
         margin: 10px;
     }
-    c
+    main .productosportadauno h3 {
+        color: beige;
+        font-size: 6vw;
+    }
+    main .productosportadauno p {
+        font-size: 3vw;
+    }
+    main .productossectionuno a {
+        text-decoration: none;
+        background-color: #e85d04;
+        border-radius: 200px;
+        color: black;
+        padding: 20px 10px;
+        font-size: 4vw;
+    }
+    
+
+
     main .productossection .fotoarañador img{
         height: 400px;
         width: 450px;
@@ -917,24 +1257,60 @@ footer {
         padding: 10px 10px 10px 10px;
         border-radius: 60px;
     }
-    main .conteiner-fabrica .imgfabric a img{
-        
-        width: 210px;
-        height: 200px;
+    main .conteiner-fabrica .imgfabric a img {
+        width: 310px;
+        height: 300px;
+        margin: 7px;
     }
-    main .carrusel-tres a img{
+    main .carrusel-tres a img {
         width: 120px;
         height: 80px;
-        margin: 20px 0px 0px 38px;
+        margin: 40px 4px 25px 3px;
     }
-    main .galeria-gimnasios-clientes{
+    main .galeria-gimnasios-clientes {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 10px;
+        margin: 10px;
     }
+    .btn-outline-success {
+        background-color: #ffb703;
+        color: black;
+        border: 1px solid black;
+        padding: 8px 10px; /* Añadir padding para mejor apariencia */
+        border-radius: 5px; /* Añadir bordes redondeados */
+        width: 70px;
+        height: 40px;
+        font-size: 10px;
+    }
+    .mediosdepago p {
+        font-size: 8px;
+    }
+    .mediosdepagouno div {
+        display: flex;
+        align-items: end;
+        justify-content: space-evenly;
+        margin: 5px;
+        width: 100%;
+    }
+    
     main .gimnasios-clientes a img{
         width: 140px;
         height: 140px;
+    }
+    .mediosdepagouno .oferta, .mediosdepagouno .tarjeta, .mediosdepagouno .camion {
+        height: 20px;
+        width: 20px;
+    }
+    .clase-nosotros .presentacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clase-nosotros .presentacion p {
+        font-size: 15px;
+        padding: 1px 0px 0px 0px;
+        margin: 25px;
     }
     footer .pie-de-pagina .social-icon .icon-eleme .icon{
         color: white;
@@ -946,6 +1322,16 @@ footer {
     }
     footer .pie-de-pagina .menu-pie .menu-elem .menu-icon{
         font-size: 10px;
+    }
+    footer .pie-de-pagina {
+        position: relative;
+        width: 117%;
+        background-color: grey;
+        padding: 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
         
 }
